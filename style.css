@@ -5,6 +5,17 @@
   font-family: "fonte-padrão";
   src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
   font-weight: normal;
+  @media (max-width: 768px) {
+    .item {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
 }
 
 * {
@@ -40,15 +51,15 @@ header > h1 {
   color: white;
 }
 .sub-header {
-background-image: url(imagens/meio.jpg);
-color: rgba(0, 0, 0, 0.822);
+  background-image: url(imagens/meio.jpg);
+  color: rgba(0, 0, 0, 0.822);
 
-background-size: cover;
-background-position: 100%;
-background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
   height: 200px;
   width: 1000px;
- 
+
   border-width: 0.1px;
   border-style: solid;
   border-color: black;
@@ -62,11 +73,11 @@ background-repeat: no-repeat;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.089);
 }
 
-
 body {
   background-color: white;
   font-family: "fonte-padrão", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 main {
   background-color: white;
@@ -97,6 +108,7 @@ main h1 {
 }
 main img {
   width: 100%;
+  height: auto;
 }
 footer {
   background-color: var(--color1);
@@ -104,7 +116,6 @@ footer {
 
 .Conteiner {
   background-color: white;
-  
 }
 
 .bloco-alinhado {
@@ -115,14 +126,12 @@ footer {
   width: 100%;
 }
 
-
-
-.item-texto{
-flex: 1;
-max-width: 400px;
-height: auto;
-width: auto;
-border-width: 0.1px;
+.item-texto {
+  flex: 1;
+  max-width: 400px;
+  height: auto;
+  width: auto;
+  border-width: 0.1px;
   border-style: solid;
   border-color: black;
   border-radius: 20px;
@@ -133,16 +142,13 @@ border-width: 0.1px;
   margin-right: auto;
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.089);
-transition:
+  transition:
     box-shadow 0.4s ease,
     transform 0.4s ease;
-
 }
 
-
-
-.item-texto:hover{
- border: 1px solid rgba(0, 0, 0, 0.06);
+.item-texto:hover {
+  border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
   transition:
     box-shadow 0.4s ease,
@@ -150,11 +156,9 @@ transition:
   transform: scale(1.01);
 }
 
-.item-texto h2{
-text-align: center;
-
+.item-texto h2 {
+  text-align: center;
 }
-
 
 .item {
   height: 600px;
