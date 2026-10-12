@@ -3,7 +3,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Isometra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Isometra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Isometra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @font-face {
   font-family: "fonte-padrão";
   src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
@@ -25,14 +25,13 @@ mark {
 }
 
 .Li-negrito2 {
-  font-family: 'Extra1', serif;
+  font-family: "Extra1", serif;
   font-weight: bolder;
   font-size: 1.1em;
 }
 
-
 .Li-negrito1 {
-  font-family: 'Extra1', serif;
+  font-family: "Extra1", serif;
   font-weight: bolder;
   font-size: 1.5em;
 }
@@ -81,7 +80,7 @@ header > h1 {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.089);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.123);
 }
 
 body {
@@ -90,6 +89,7 @@ body {
   margin: 0;
 }
 main {
+  border-radius: 10px;
   padding-top: 10px;
   margin-top: 10px;
   background-color: white;
@@ -98,7 +98,7 @@ main {
   max-width: 1000px;
   margin: auto;
   margin-bottom: 10px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.527);
 }
 
 main p {
@@ -332,4 +332,18 @@ footer {
   border-radius: 20px;
 
   text-align: justify;
+}
+.medicamento-head {
+  width: auto;
+  height: 140px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+}
+.medicamento {
+  width: auto;
+  height: 450px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
 }
