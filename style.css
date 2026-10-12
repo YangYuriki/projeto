@@ -82,8 +82,8 @@ body {
 main {
   background-color: white;
   padding: 25px;
-  min-width: 300px;
-  max-width: 1000px;
+  min-width: auto;
+  max-width: auto;
   margin: auto;
   margin-bottom: 10px;
 }
