@@ -329,9 +329,10 @@ footer {
   width: auto;
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
-  border-radius: 20px;
 
   text-align: justify;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 .medicamento-head {
   width: auto;
@@ -341,8 +342,15 @@ footer {
   margin: auto;
 }
 .medicamento {
-  width: auto;
-  height: 450px;
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
+}
+.Final1 {
+  width: 500px;
+  height: auto;
   border: 1px solid black;
   padding: 30px;
   margin: auto;
