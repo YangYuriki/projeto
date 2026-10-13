@@ -328,7 +328,7 @@ footer {
   height: 500px;
   width: auto;
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
 
   text-align: justify;
   border-bottom-left-radius: 50px;
@@ -347,7 +347,7 @@ footer {
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.719);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
   margin-left: 0;
   margin-right: auto;
 }
@@ -358,7 +358,7 @@ footer {
 
   background-color: rgba(255, 255, 255, 0.719);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
   margin-left: auto;
   margin-right: 0;
 }
@@ -371,8 +371,10 @@ footer {
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
-      transition: box-shadow 0.4s ease, transform 0.4s ease, border 0.4s ease;
-
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease,
+    border 0.4s ease;
 }
 .Final1-estilo {
   border-radius: 5px;
@@ -383,7 +385,10 @@ footer {
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
-    transition: box-shadow 0.4s ease, transform 0.4s ease, border 0.4s ease;
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease,
+    border 0.4s ease;
 }
 
 .Final2-estilo {
@@ -396,8 +401,10 @@ footer {
   background-position: 100%;
   background-repeat: no-repeat;
   height: auto;
-      transition: box-shadow 0.4s ease, transform 0.4s ease, border 0.4s ease;
-
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease,
+    border 0.4s ease;
 }
 .Final2 {
   width: 500px;
@@ -406,31 +413,87 @@ footer {
 
   background-color: rgba(255, 255, 255, 0.719);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
 }
-.Final1-estilo:hover{
- border: 1px solid rgba(0, 0, 0, 0.06);
+.Final1-estilo:hover {
+  border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
   transition:
     box-shadow 0.4s ease,
     transform 0.4s ease;
   transform: scale(1.01);
 }
-.Final2-estilo:hover{
+.Final2-estilo:hover {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+  transform: scale(1.01);
+}
+.medicamento-estilo:hover {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+  transform: scale(1.01);
+}
+.Semi-final {
+  width: auto;
+  height: auto;
+  padding: 30px;
 
- border: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: rgba(255, 255, 255, 0.719);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
+    background-image: url(imagens/clickerhappy-wind-energy-7394705_1920.jpg);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.imagen-link {
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  gap: 10px;
+
+  padding: 10px;
+  width: fit-content;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
+ 
+}
+
+.imagen-link img {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding: auto;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.171);
+  background-color: rgba(255, 255, 255, 0.774);
+}
+.imagen-link:hover {
+  border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
   transition:
     box-shadow 0.4s ease,
     transform 0.4s ease;
   transform: scale(1.01);
 }
-.medicamento-estilo:hover{
- border: 1px solid rgba(0, 0, 0, 0.06);
+.imagen-link img:hover {
+  border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
   transition:
     box-shadow 0.4s ease,
     transform 0.4s ease;
   transform: scale(1.01);
-  
 }
