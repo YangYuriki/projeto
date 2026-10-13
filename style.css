@@ -37,6 +37,7 @@ mark {
 }
 .Li-negrito {
   font-weight: 700;
+  
 }
 
 :root {
@@ -103,7 +104,7 @@ main {
 
 main p {
   margin: 15px, 0px;
-  text-align: justify;
+  text-align: left;
   line-height: 1.5em;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -340,7 +341,13 @@ footer {
   border: 1px solid black;
   padding: 10px;
   margin: auto;
+
 }
+.medicamento-head p{
+  text-indent: 30px;
+}
+
+
 .medicamento {
   width: 500px;
   height: auto;
@@ -497,4 +504,194 @@ footer {
     transform 0.4s ease;
   transform: scale(1.01);
 }
-/*/aaa
+
+
+
+/* A partir daqui foi feito com uso de IA!!! responsividade do site, telas menores celulares etc, a partir daqui para cima foi feito por mim<3.*/
+
+
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  main {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    overflow-wrap: break-word;
+  }
+
+  .bloco-alinhado {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .item,
+  .item-texto {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 12px;
+    margin: 10px 0;
+  }
+
+  .texto-l {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    align-items: start;
+    text-align: center;
+  }
+
+  .texto-l h3 {
+    margin: 0;
+    padding: 5px;
+    overflow-wrap: break-word;
+  }
+
+  .img1,
+  .img2,
+  .img1-frente,
+  .img,
+  .img-frente {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    left: auto;
+  }
+
+  .img1 img,
+  .img2 img,
+  .img1-frente img,
+  .img img,
+  .img-frente img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .descarte {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 12px;
+    margin: 20px 0;
+  }
+
+  .sub {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .medicamento-head {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .medicamento,
+  .Final1,
+  .Final2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 12px;
+    margin: 15px 0;
+    box-sizing: border-box;
+  }
+
+  .medicamento-estilo,
+  .Final1-estilo,
+  .Final2-estilo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .medicamento p,
+  .Final1 p,
+  .Final2 p {
+    margin: 10px 0;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .imagen-link {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .imagen-link a {
+    display: block;
+    min-width: 0;
+  }
+
+  .imagen-link img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  main img {
+    max-width: 100%;
+  }
+
+  main h1 {
+    font-size: 1.5em;
+  }
+
+  main h2 {
+    font-size: 1.3em;
+  }
+
+  main p {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.4em;
+  }
+
+  main {
+    padding: 8px;
+  }
+
+  .item,
+  .item-texto,
+  .descarte,
+  .medicamento,
+  .Final1,
+  .Final2 {
+    padding: 10px;
+  }
+
+  .texto-l h3 {
+    font-size: 1em;
+  }
+}
