@@ -355,3 +355,9 @@ footer {
   padding: 30px;
   margin: auto;
 }
+.medicamento-estilo {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  background-image: url();
+}
