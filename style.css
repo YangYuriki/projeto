@@ -371,16 +371,19 @@ footer {
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
+      transition: box-shadow 0.4s ease, transform 0.4s ease, border 0.4s ease;
+
 }
 .Final1-estilo {
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
-  background-image: url(imagens/mediclix.jpeg);
+  background-image: url(imagens/moeda.jpg);
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
+    transition: box-shadow 0.4s ease, transform 0.4s ease, border 0.4s ease;
 }
 
 .Final2-estilo {
@@ -388,11 +391,13 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
-  background-image: url(imagens/medi.jpg);
+  background-image: url(imagens/fahchada.jpg);
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
   height: auto;
+      transition: box-shadow 0.4s ease, transform 0.4s ease, border 0.4s ease;
+
 }
 .Final2 {
   width: 500px;
@@ -402,4 +407,30 @@ footer {
   background-color: rgba(255, 255, 255, 0.719);
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+}
+.Final1-estilo:hover{
+ border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+  transform: scale(1.01);
+}
+.Final2-estilo:hover{
+
+ border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+  transform: scale(1.01);
+}
+.medicamento-estilo:hover{
+ border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+  transform: scale(1.01);
+  
 }
