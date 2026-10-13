@@ -344,24 +344,62 @@ footer {
 .medicamento {
   width: 500px;
   height: auto;
-  border: 1px solid black;
   padding: 30px;
-  margin: left;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.719);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  margin-left: 0;
+  margin-right: auto;
 }
 .Final1 {
   width: 500px;
   height: auto;
-  border: 1px solid black;
   padding: 30px;
-  margin: auto;
+
+  background-color: rgba(255, 255, 255, 0.719);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
+  margin-left: auto;
+  margin-right: 0;
 }
 .medicamento-estilo {
-  border: 1px solid black;
-  margin: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 0px;
-  background-image: url(imagens/medicamento.jpg);
+  background-image: url(imagens/medi.jpg);
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
+}
+.Final1-estilo {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  background-image: url(imagens/mediclix.jpeg);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.Final2-estilo {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  background-image: url(imagens/medi.jpg);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.Final2 {
+  width: 500px;
+  height: auto;
+  padding: 30px;
+
+  background-color: rgba(255, 255, 255, 0.719);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.322);
 }
